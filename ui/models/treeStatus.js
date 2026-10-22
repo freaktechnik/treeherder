@@ -3,6 +3,7 @@ import { thHosts } from '../helpers/constants';
 const repoMap = new Map(
   Object.entries({
     autoland: 'firefox-autoland',
+    'comm-central': 'thunderbird-desktop-main',
     'mozilla-central': 'firefox-main',
     'mozilla-beta': 'firefox-beta',
     'mozilla-release': 'firefox-release',
